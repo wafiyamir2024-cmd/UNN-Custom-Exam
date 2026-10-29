@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102a3d">
+  <title>Applicant Assessment | Technology Operations</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/exam.js" defer></script>
+</head>
+<body class="applicant-page">
+  <header class="site-header">
+    <a class="brand" href="/exam" aria-label="Assessment home">
+      <span class="brand-symbol" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+      <span><strong>Technology Operations</strong><small>Applicant Assessment</small></span>
+    </a>
+    <div class="header-right">
+      <span class="header-divider" aria-hidden="true"></span>
+      <span class="portal-label">Candidate portal</span>
+    </div>
+  </header>
+
+  <main id="app" class="candidate-main" aria-live="polite">
+    <div class="loading-state"><span class="spinner" aria-hidden="true"></span><p>Loading your assessment…</p></div>
+  </main>
+
+  <div id="exam-watermark" class="exam-watermark" aria-hidden="true"></div>
+  <div id="focus-shield" class="focus-shield" aria-hidden="true">
+    <div class="focus-shield-card"><span class="shield-icon">◎</span><strong>Assessment hidden</strong><span>Return to this window to continue.</span></div>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modal-root"></div>
+</body>
+</html>

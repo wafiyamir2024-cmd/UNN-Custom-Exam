@@ -1,0 +1,12 @@
+services:
+  exam:
+    build: .
+    image: applicant-exam:local
+    ports:
+      - "${EXAM_BIND_IP:-127.0.0.1}:${EXAM_PORT:-8787}:8787"
+    environment:
+      EXAM_APP_ROOT: /app
+      EXAM_ADMIN_PASSWORD: ${EXAM_ADMIN_PASSWORD:-}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

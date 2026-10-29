@@ -1,0 +1,9 @@
+/bin/
+/data/exam-data.json
+/data/exam-data.json.*.tmp
+/data/exam-data.json.tmp
+/.test-runtime/
+/.env
+/.env.*
+__pycache__/
+*.pyc

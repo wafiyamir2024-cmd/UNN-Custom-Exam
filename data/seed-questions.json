@@ -1,0 +1,782 @@
+[
+  {
+    "id": "pdf-001",
+    "section": "AI Basics",
+    "text": "What is the difference between model training and inference?",
+    "options": [
+      "Training updates model parameters. inference uses a trained model to generate outputs",
+      "Training runs only on CPUs. inference runs only on GPUs",
+      "Training stores datasets. inference cleans datasets",
+      "Training and inference perform the same operation"
+    ],
+    "correctIndex": 0,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-002",
+    "section": "AI Basics",
+    "text": "Which activity is an example of model inference?",
+    "options": [
+      "Updating model weights using labelled examples",
+      "Generating predictions using a trained model",
+      "Calculating gradients during a training iteration",
+      "Selecting hyperparameters using validation results"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-003",
+    "section": "AI Basics",
+    "text": "A customer wants to deploy an AI model on a GPU instance. Which information is most useful when selecting the instance?",
+    "options": [
+      "The number of users registered with the customer",
+      "The programming language alone",
+      "The size of the customer’s source-code repository",
+      "The model’s memory requirements, workload type, and performance targets"
+    ],
+    "correctIndex": 3,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-004",
+    "section": "AI Basics",
+    "text": "What does retrieval-augmented generation (RAG) typically do?",
+    "options": [
+      "Updates model weights whenever a document is uploaded",
+      "Replaces document retrieval with additional model training",
+      "Supplies retrieved information as context for generation",
+      "Converts generated answers into labelled training examples"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-005",
+    "section": "AI Basics",
+    "text": "What distinguishes supervised learning from unsupervised learning?",
+    "options": [
+      "Supervised learning requires GPUs; unsupervised learning requires CPUs",
+      "Supervised learning uses labelled examples to learn a mapping",
+      "Supervised learning uses less data for every type of problem",
+      "Supervised learning produces rules instead of numerical predictions"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-006",
+    "section": "AI Basics",
+    "text": "What distinguishes a hyperparameter from a learned parameter?",
+    "options": [
+      "Hyperparameters are always calculated from test results",
+      "Hyperparameters change automatically with every prediction",
+      "Hyperparameters configure training rather than being learned as weights",
+      "Hyperparameters exist only in models using neural networks"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-007",
+    "section": "AI Basics",
+    "text": "Can an LLM run on a CPU?",
+    "options": [
+      "Yes, but it must be trained again first",
+      "Yes, with sufficient memory and compatible software",
+      "No, it always requires a dedicated GPU",
+      "No, it requires an external AI service"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-008",
+    "section": "AI Basics",
+    "text": "Which evaluation best measures whether a RAG answer is grounded?",
+    "options": [
+      "Checking whether its claims are supported by the supplied sources",
+      "Checking whether its wording resembles previous model answers",
+      "Checking whether it uses all available output tokens",
+      "Checking whether it includes terminology from the user’s question"
+    ],
+    "correctIndex": 0,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-009",
+    "section": "AI Basics",
+    "text": "A team wants to use sensitive customer data with an AI service. What should the engineer do first?",
+    "options": [
+      "Remove customer names and submit the remaining records",
+      "Upload a small sample to check the model’s response",
+      "Verify data classification and the service’s approved handling controls",
+      "Encrypt the source file and share its password in the prompt"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-010",
+    "section": "AI Basics",
+    "text": "What does an API contract typically define?",
+    "options": [
+      "Request formats, response formats, and expected behaviours",
+      "Server ownership, procurement costs, and renewal dates",
+      "Model architecture, training examples, and learned weights",
+      "User responsibilities, training schedules, and support hours"
+    ],
+    "correctIndex": 0,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-011",
+    "section": "AI Basics",
+    "text": "Before building a Retrieval-Augmented Generation (RAG) system, what should the engineer do first?",
+    "options": [
+      "Select a vector database and configure its search settings",
+      "Define the use case and assess source quality and access permissions",
+      "Choose an embedding model and generate document vectors",
+      "Deploy an LLM endpoint and configure its response settings"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-012",
+    "section": "AI Basics",
+    "text": "Why are application logs useful?",
+    "options": [
+      "They improve the model’s prediction accuracy",
+      "They increase the server’s processing capacity",
+      "They prevent users from submitting invalid requests",
+      "They help engineers investigate errors and events"
+    ],
+    "correctIndex": 3,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-013",
+    "section": "AI Basics",
+    "text": "Where should an application’s API keys and passwords be stored?",
+    "options": [
+      "In the application’s source code",
+      "In a configuration file beside the source code",
+      "In a secure secrets manager",
+      "In container images within a private registry"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-014",
+    "section": "AI Basics",
+    "text": "Which action should be avoided when using a public AI service?",
+    "options": [
+      "Summarizing a company report published on its website",
+      "Reviewing sample code containing fictional customer records",
+      "Uploading internal customer records after removing names",
+      "Drafting a proposal using publicly available information"
+    ],
+    "correctIndex": 0,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-015",
+    "section": "AI Basics",
+    "text": "A team wants a custom GPT to answer questions from internal documents. What should be assessed first?",
+    "options": [
+      "Whether all documents can fit within the upload limits",
+      "Whether a larger model would produce better responses",
+      "Whether intended users are authorized to access the documents",
+      "Whether the instructions cover every possible user question"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-016",
+    "section": "AI Basics",
+    "text": "Can every multimodal AI model process every type of input?",
+    "options": [
+      "Yes, provided the input files are small",
+      "No, supported input types depend on the model",
+      "Yes, provided the server has enough memory",
+      "No, each model accepts only one input type"
+    ],
+    "correctIndex": 3,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-017",
+    "section": "AI Basics",
+    "text": "A client requests the largest available LLM for classifying support tickets. What should the engineer do?",
+    "options": [
+      "Select it because parameter count determines task accuracy",
+      "Choose a smaller model based only on the ticket length",
+      "Use the existing model without further task evaluation",
+      "Compare suitable models against quality, latency, and cost targets"
+    ],
+    "correctIndex": 3,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-018",
+    "section": "AI Basics",
+    "text": "A client wants AI to summarize recorded meetings, including discussion and displayed slides. What should the engineer evaluate?",
+    "options": [
+      "Whether a text model can infer slide details from meeting titles",
+      "Whether image classification can replace speech transcription",
+      "Whether processing every video frame improves all summary tasks",
+      "Whether the pipeline captures and aligns relevant audio and visuals"
+    ],
+    "correctIndex": 3,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-019",
+    "section": "AI Basics",
+    "text": "A RAG chatbot gives an outdated answer even though the source document was updated yesterday. What is the best initial investigation?",
+    "options": [
+      "Trace the document through ingestion, indexing, retrieval, and caching",
+      "Increase the number of retrieved passages for every question",
+      "Fine-tune the model using the updated document",
+      "Replace the embedding model with a larger alternative"
+    ],
+    "correctIndex": 0,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-020",
+    "section": "AI Basics",
+    "text": "What is the main purpose of reviewing platform access logs?",
+    "options": [
+      "To identify unusual access activities",
+      "To measure application response time",
+      "To estimate platform storage usage",
+      "To monitor AI model performance"
+    ],
+    "correctIndex": 0,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-021",
+    "section": "AI Basics",
+    "text": "An application consists of a frontend, load balancer, backend API, and AI service. Which request flow is most appropriate?",
+    "options": [
+      "Frontend → AI Service → Load Balancer → Backend API",
+      "Frontend → Load Balancer → Backend API → AI Service",
+      "Frontend → Backend API → Load Balancer → AI Service",
+      "Frontend → AI Service → Backend API → Load Balancer"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-022",
+    "section": "AI Basics",
+    "text": "What is a token in an LLM?",
+    "options": [
+      "A Unit of text processed",
+      "An authentication password",
+      "A GPU processing core",
+      "A database record"
+    ],
+    "correctIndex": 0,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-023",
+    "section": "AI Basics",
+    "text": "After rebuilding a Docker application, the old version still appears. Which command should be used to ensure the latest changes are included in a fresh image build?",
+    "options": [
+      "docker compose build --pull",
+      "docker compose build --no-cache",
+      "docker compose build --force-rm",
+      "docker compose build --progress plain"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-024",
+    "section": "AI Basics",
+    "text": "Before storing extracted PDF text in a vector-based knowledge base, what should be performed?",
+    "options": [
+      "Tokenization",
+      "Fine-tuning",
+      "Text Embedding",
+      "Quantization"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-025",
+    "section": "AI Basics",
+    "text": "You deployed an LLM on a VM server. What is the most appropriate way to allow other developers to integrate it into their applications?",
+    "options": [
+      "Configure a reverse proxy to route model requests",
+      "Expose an authenticated inference API endpoint",
+      "Enable remote access to the model runtime",
+      "Configure a load balancer for model traffic"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-026",
+    "section": "AI Basics",
+    "text": "What does \"B\" represent in LLM models such as 7B, 14B, and 70B, and how does it affect performance?",
+    "options": [
+      "Billions of parameters; higher B always provides better accuracy and faster inference",
+      "Billions of parameters; lower B generally requires more GPU memory but offers faster inference",
+      "Billions of parameters; higher B generally increases model capacity and computational requirements",
+      "Billions of parameters; higher B primarily increases context window size and token generation speed"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-027",
+    "section": "AI Basics",
+    "text": "A web application forwards user requests to an internal API. How should the backend verify the user's identity?",
+    "options": [
+      "Validate the user ID provided in the request body",
+      "Identify the user through the originating IP address",
+      "Validate the authenticated session or access token",
+      "Verify the username forwarded in a custom HTTP header"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-028",
+    "section": "AI Basics",
+    "text": "A RAG system retrieves relevant text chunks but frequently loses important context from surrounding paragraphs. Which approach best addresses this?",
+    "options": [
+      "Reduce chunk sizes without retaining relationships between chunks",
+      "Increase embedding dimensions for all documents",
+      "Use parent-child chunking or retrieve neighboring chunks",
+      "Replace vector retrieval with document-level similarity scores"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-029",
+    "section": "AI Basics",
+    "text": "Before generating embeddings from newly collected documents, what should a data pipeline prioritize?",
+    "options": [
+      "Automatically replacing the existing vector index",
+      "Increasing the embedding model's context window",
+      "Validating document content, metadata, and access permissions",
+      "Sending all documents directly to the language model"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-030",
+    "section": "AI Basics",
+    "text": "A Docker container is running, but the application cannot be accessed externally. What should be investigated first?",
+    "options": [
+      "Check container health and application logs",
+      "Verify port mappings and listening interfaces",
+      "Inspect Docker network and DNS settings",
+      "Review container restart and resource policies"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-031",
+    "section": "AI Basics",
+    "text": "A newly deployed container version starts successfully but causes application errors. The previous version was stable. What is the most appropriate recovery action?",
+    "options": [
+      "Restart the container with updated settings",
+      "Reconfigure the container's runtime environment",
+      "Restore the previous image and configuration",
+      "Recreate the container with existing volumes"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-032",
+    "section": "AI Basics",
+    "text": "An AI application is running, but GPU utilisation remains at 0% during inference. What should be verified first?",
+    "options": [
+      "Whether the model's context length is configured",
+      "Whether the runtime detects and uses the GPU",
+      "Whether the API endpoint accepts requests",
+      "Whether the model weights are quantized"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-033",
+    "section": "AI Basics",
+    "text": "A model requires more GPU memory than the available accelerator provides. Which approach can reduce memory consumption?",
+    "options": [
+      "Increase the maximum output tokens",
+      "Increase the number of model replicas",
+      "Apply a lower-precision quantization format",
+      "Increase the inference batch size"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-034",
+    "section": "AI Basics",
+    "text": "An AI model responds quickly for one user but becomes significantly slower under concurrent requests. What should be evaluated first?",
+    "options": [
+      "Model checkpoint naming conventions",
+      "GPU utilisation and request scheduling",
+      "API documentation and response schemas",
+      "Container restart and logging policies"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-035",
+    "section": "AI Basics",
+    "text": "An AI platform service is running, but users report intermittent failures. What should be investigated first?",
+    "options": [
+      "Review service logs and error patterns",
+      "Increase the service timeout settings",
+      "Restart the affected service instances",
+      "Adjust the load balancer distribution"
+    ],
+    "correctIndex": 0,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-036",
+    "section": "AI Basics",
+    "text": "An AI application reports connection timeouts when communicating with its database. What should be verified first?",
+    "options": [
+      "Application interface configuration",
+      "Database connectivity and service availability",
+      "Model inference and GPU utilisation",
+      "User session and authentication settings"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-037",
+    "section": "AI Basics",
+    "text": "An engineer resolves a recurring application issue. What should be documented?",
+    "options": [
+      "Only the date the issue occurred",
+      "Only the final service status",
+      "The root cause and resolution steps",
+      "The engineer's troubleshooting duration"
+    ],
+    "correctIndex": 2,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-038",
+    "section": "AI Basics",
+    "text": "Two AI inference services share one GPU. Both run successfully alone but encounter memory errors when started together. What is the most appropriate solution?",
+    "options": [
+      "Increase the API connection timeout",
+      "Adjust GPU memory allocation or workloads",
+      "Increase the container's CPU limits",
+      "Configure additional network interfaces"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-039",
+    "section": "AI Basics",
+    "text": "A GPU has 16 GB VRAM. An engineer wants to deploy a 14B parameter LLM. Which factor is most important when assessing feasibility?",
+    "options": [
+      "Model parameter count and API response format",
+      "Model quantization, memory overhead, and context length",
+      "Model training dataset size and tokenizer vocabulary",
+      "Model benchmark ranking and supported languages"
+    ],
+    "correctIndex": 1,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "pdf-040",
+    "section": "AI Basics",
+    "text": "An organization replaces its embedding model with another model that produces vectors of the same dimension and uses cosine similarity. However, retrieval quality drops significantly after deployment. What is the most likely cause?",
+    "options": [
+      "The vector database requires additional index replicas",
+      "The similarity threshold must match both tokenizers",
+      "The embedding batch size affects retrieval accuracy",
+      "The embedding models use incompatible vector spaces"
+    ],
+    "correctIndex": 3,
+    "sourceFile": "IABD-Questions to Add-291026-075250.pdf"
+  },
+  {
+    "id": "docx-001",
+    "section": "Troubleshooting",
+    "text": "An internal application suddenly stops responding. Which is the best initial approach?",
+    "options": [
+      "Restart every server immediately",
+      "Review service health, recent changes and relevant logs before choosing an action",
+      "Increase GPU capacity",
+      "Reinstall all application dependencies"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-002",
+    "section": "Troubleshooting",
+    "text": "A service was healthy until a deployment. Which evidence should you investigate first?",
+    "options": [
+      "Last quarter’s cost allocation",
+      "Deployment changes, error logs and configuration differences",
+      "Employee attendance records",
+      "Total number of database tables"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-003",
+    "section": "Troubleshooting",
+    "text": "A health endpoint responds locally inside a container but fails from the application container. Which explanation deserves investigation?",
+    "options": [
+      "Container networking, addressing or port configuration",
+      "Model training accuracy",
+      "Lack of GPU memory must be the cause",
+      "A failed laptop battery"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-004",
+    "section": "Troubleshooting",
+    "text": "Which observation most strongly supports a service-port mismatch?",
+    "options": [
+      "GPU utilisation is low",
+      "Application calls port 8000 while the target service log says it listens on 8080",
+      "Users say the page looks slow",
+      "The app uses Python"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-005",
+    "section": "Troubleshooting",
+    "text": "After applying a low-risk fix, what is the best verification?",
+    "options": [
+      "Confirm only that the container is running",
+      "Test the affected service endpoint and end-to-end workflow, then observe logs/metrics",
+      "Assume it works because deployment succeeded",
+      "Ask users to try again without checking"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-006",
+    "section": "Linux",
+    "text": "Which command commonly shows filesystem space used and available on Linux?",
+    "options": [
+      "df -h",
+      "mkdir",
+      "git clone",
+      "pwd"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-007",
+    "section": "Linux",
+    "text": "A Linux service reports “Permission denied” when writing a file. What should be checked first?",
+    "options": [
+      "File and directory ownership, permissions and effective service user",
+      "GPU utilisation",
+      "Model response accuracy",
+      "Monitor resolution"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-008",
+    "section": "Linux",
+    "text": "Which command is typically useful for inspecting the latest systemd service logs?",
+    "options": [
+      "journalctl -u <service> -n 100",
+      "lsusb -v",
+      "touch <service>",
+      "docker build ."
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-009",
+    "section": "API/Backend",
+    "text": "An API responds with HTTP 401. What should you investigate first?",
+    "options": [
+      "Authentication credentials or token validity",
+      "GPU allocation",
+      "Filesystem capacity",
+      "Model hyperparameters"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-010",
+    "section": "API/Backend",
+    "text": "An API request returns HTTP 500. What does it generally indicate?",
+    "options": [
+      "The request was successful",
+      "The endpoint does not exist in all cases",
+      "A server-side error occurred while handling the request",
+      "The user has no network connection in all cases"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-011",
+    "section": "API/Backend",
+    "text": "An application log says “connection refused” for a backend endpoint. What should you check first?",
+    "options": [
+      "Whether a process is listening and whether host/port/network path are correct",
+      "Whether the model has been trained longer",
+      "Whether the GPU needs replacement",
+      "Whether a report title is correct"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-012",
+    "section": "Containers",
+    "text": "Which statement best distinguishes a container image from a container?",
+    "options": [
+      "An image is a blueprint/package; a container is a running or created instance",
+      "An image is physical hardware; a container is a VM hypervisor",
+      "They always mean exactly the same object",
+      "A container only stores pictures"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-013",
+    "section": "Containers",
+    "text": "A container works in development but fails in production. What is a good first investigation?",
+    "options": [
+      "Differences in environment variables, secrets, dependencies, networking and logs",
+      "Change the AI model architecture immediately",
+      "Increase all server resources without checking",
+      "Disable application authentication"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-014",
+    "section": "Containers",
+    "text": "What is one primary purpose of container orchestration?",
+    "options": [
+      "Managing deployment, scheduling and lifecycle of container workloads",
+      "Writing code without developers",
+      "Replacing database design",
+      "Training every AI model automatically"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-015",
+    "section": "Python/Scripting",
+    "text": "Which design is safest for a Python script calling a service over HTTP?",
+    "options": [
+      "No timeout and infinite retries",
+      "Explicit timeout, status checking and exception handling",
+      "Credentials hard-coded in a public repository",
+      "Ignore all failures and return success"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-016",
+    "section": "Python/Scripting",
+    "text": "Which operational activity is a reasonable use of a simple script?",
+    "options": [
+      "Periodically checking approved endpoints and reporting unhealthy status",
+      "Disabling all production monitoring",
+      "Bypassing access controls for testing",
+      "Automatically deleting logs when an error occurs"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-017",
+    "section": "AI Runtime/GPU",
+    "text": "What is model inference?",
+    "options": [
+      "Using a trained model to produce an output for an input",
+      "Installing Linux on a server",
+      "Always retraining a model from scratch",
+      "Building physical GPU hardware"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-018",
+    "section": "AI Runtime/GPU",
+    "text": "An AI service shows 0% GPU utilisation. What is the best interpretation?",
+    "options": [
+      "The GPU must be faulty",
+      "A bigger GPU is always required",
+      "Check whether requests arrive, execution uses the GPU and metrics were sampled during activity",
+      "The neural network weights are corrupted"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-019",
+    "section": "AI Runtime/GPU",
+    "text": "A model-serving process fails with “CUDA out of memory”. What should be investigated first?",
+    "options": [
+      "GPU memory consumption, concurrent workloads, model size and runtime configuration",
+      "DNS domain registration",
+      "Corporate email password policies only",
+      "Dashboard colour palette"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  },
+  {
+    "id": "docx-020",
+    "section": "Security/Operations",
+    "text": "A colleague proposes putting a production API key directly into a source repository to accelerate deployment. Best response?",
+    "options": [
+      "Agree if the repository is currently private",
+      "Use approved secret management, restrict access and avoid committing the key",
+      "Hide the key in a source code comment",
+      "Disable logging permanently"
+    ],
+    "correctIndex": null,
+    "sourceFile": "AI_Platform_Round1_Candidate_Questions_3692.docx"
+  }
+]
